@@ -58,8 +58,8 @@ def update():
 
 boxes = []
 
-for n in range(15):
-    for k in range(15):
+for n in range(50):
+    for k in range(50):
         box = Button(
             position=(k, 0, n),
             color=color.green,
